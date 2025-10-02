@@ -7,30 +7,15 @@ This project seeks to analyze aviation accident and incident data to identify th
 # Problem Statement
 The company is planning to expand into the aviation industry by purchasing and operating airplanes for both commercial and private use. However, management lacks adequate knowledge of the risks associated with different aircraft types, which poses a challenge in making safe and cost-effective investment decisions. Without a data-driven approach to understand accident patterns, damage severity, and injury outcomes, the company risks purchasing high-risk aircraft that could increase operational costs, insurance liabilities, and safety concerns.
 
-# Business Objectives
-* To assess the relationship between accident severity and aircraft characteristics
+# Data
+For the analysis we will be using the Aviation-Accident csv dataset from kaggle.
 
-* To determine the impact of flight purpose on accident outcomes
+# Methods
 
-* To analyze the effect of weather conditions on accident severity
 
-* To examine accident patterns across different phases of flight
+# Results
 
-* To rank aircraft makes and models based on safety outcomes
 
-# Data Mining Goals
-* Clean and prepare aviation accident and incident data for analysis.
-
-* Analyze patterns across variables such as aircraft damage, injury severity, and investigation type.
-
-* Visualize findings to clearly communicate risk levels associated with different aircraft categories.
-
-# Success Criteria
-* Deliver clear, data-driven recommendations on which aircraft types present the lowest risk.
-
-* Ensure that the aviation division has evidence-based insights to guide purchasing decisions.
-
-* Enable the company to enter the aviation industry with confidence by mitigating safety and financial risks.
 
 # Conclusions and Recommendations
 

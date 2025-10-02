@@ -19,18 +19,18 @@ The company is planning to expand into the aviation industry by purchasing and o
 * To rank aircraft makes and models based on safety outcomes
 
 # Data Mining Goals
-Clean and prepare aviation accident and incident data for analysis.
+* Clean and prepare aviation accident and incident data for analysis.
 
-Analyze patterns across variables such as aircraft damage, injury severity, and investigation type.
+* Analyze patterns across variables such as aircraft damage, injury severity, and investigation type.
 
-Visualize findings to clearly communicate risk levels associated with different aircraft categories.
+* Visualize findings to clearly communicate risk levels associated with different aircraft categories.
 
 # Success Criteria
-Deliver clear, data-driven recommendations on which aircraft types present the lowest risk.
+* Deliver clear, data-driven recommendations on which aircraft types present the lowest risk.
 
-Ensure that the aviation division has evidence-based insights to guide purchasing decisions.
+* Ensure that the aviation division has evidence-based insights to guide purchasing decisions.
 
-Enable the company to enter the aviation industry with confidence by mitigating safety and financial risks.
+* Enable the company to enter the aviation industry with confidence by mitigating safety and financial risks.
 
 # Conclusions and Recommendations
 

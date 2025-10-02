@@ -19,7 +19,7 @@ The graph suggests significant progress in aviation safety over the past 40 year
 
 <img width="859" height="470" alt="image" src="https://github.com/user-attachments/assets/0bf0c093-6001-420c-b4a1-e5222261a347" />
 
-Counterintuitively most accidents happen in  Visual Meteorological Conditions (VMC) which is more favourable condition for pilots and flights. This could be due to a high number of flights when the weather is favourable. Also most accidents take place during take off and cruise.
+Most accidents happen in  Visual Meteorological Conditions (VMC) which is more favourable condition for pilots and flights. This could be due to a high number of flights when the weather is favourable. Also most accidents take place during take off and cruise.
 
 
 <img width="1389" height="790" alt="image" src="https://github.com/user-attachments/assets/f1f25af6-7cd2-4eee-a19e-a29d778bd533" />

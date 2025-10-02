@@ -8,21 +8,42 @@ This project seeks to analyze aviation accident and incident data to identify th
 The company is planning to expand into the aviation industry by purchasing and operating airplanes for both commercial and private use. However, management lacks adequate knowledge of the risks associated with different aircraft types, which poses a challenge in making safe and cost-effective investment decisions. Without a data-driven approach to understand accident patterns, damage severity, and injury outcomes, the company risks purchasing high-risk aircraft that could increase operational costs, insurance liabilities, and safety concerns.
 
 # Data
-For the analysis we will be using the Aviation-Accident csv dataset from kaggle.
+For the analysis we will be using the Aviation-Accident csv dataset from (https://github.com/learn-co-curriculum/dsc-project-template.git).
 
 # Methods
-
+This project uses descriptive analysis, including trend analysis over time and categorical comparisons. Grouping and aggregation were applied to identify accident patterns by aircraft type, injury severity, flight purpose, and weather conditions. Visualization techniques such as bar charts and line plots were used to highlight key insights, providing a clear overview of aviation accident risks and supporting data-driven recommendations for safer aircraft investment.
 
 # Results
 
+The graph suggests significant progress in aviation safety over the past 40 years. The decrease in all injury types, especially fatalities, points toward better aircraft technology, stricter regulations, and improved emergency response.
+
+<img width="859" height="470" alt="image" src="https://github.com/user-attachments/assets/0bf0c093-6001-420c-b4a1-e5222261a347" />
+
+Counterintuitively most accidents happen in  Visual Meteorological Conditions (VMC) which is more favourable condition for pilots and flights. This could be due to a high number of flights when the weather is favourable. Also most accidents take place during take off and cruise.
+
+
+<img width="1389" height="790" alt="image" src="https://github.com/user-attachments/assets/f1f25af6-7cd2-4eee-a19e-a29d778bd533" />
+
+Cessna152, Cessna172, Cessna172N invoved in more accidents. This might be due to the populariy of these models but more investigation must be conducted.
+There also seems to be a strong connection between engine type and number of accidents. But again, this can be because of high number of them being in operation
+
+<img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/ff38f144-aea1-4bb6-b563-604e2500ef9b" />
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/942e488f-f147-468f-ab67-65441f3f596b" />
+
+ A significant number of accidents occur during personal and recreational flights, while structured commercial operations tend to demonstrate stronger safety performance.
+
+<img width="639" height="562" alt="image" src="https://github.com/user-attachments/assets/5115d5e7-9316-4715-9bf7-6eeac11be975" />
 
 
 # Conclusions and Recommendations
 
-The analysis of aviation accident data shows that overall safety in the industry has steadily improved since the early 1980s, reflecting advancements in aircraft technology, regulatory frameworks, and pilot training programs. However, risks still exist, particularly during critical phases of flight such as takeoff and cruise, and during high-activity periods like summer months and weekends. While most accidents are non-fatal, they often result in substantial or total aircraft damage, which can translate into significant financial losses for operators.
+The analysis shows that aviation safety has steadily improved since the 1980s, but risks remain during critical phases such as takeoff and cruise, as well as in high-activity periods like summer months and weekends. Most accidents are non-fatal but result in costly aircraft damage.
 
-A closer look at accident distribution reveals that factory-built, certified aircraft dominate accident records, largely because they make up the majority of aircraft in operation. Certain models, such as the Cessna 152 and Cessna 172 series, appear frequently in accident data, but this is likely influenced by their widespread use in training and recreational aviation rather than inherent design flaws. In contrast, amateur-built aircraft are less represented, but their smaller population makes it difficult to assess their risk profile in comparison.
+Factory-built, certified aircraft dominate accident records mainly due to their prevalence, with popular models like the Cessna 152 and 172 appearing often in training and recreational incidents. Accidents occurring in clear weather highlight human error and operational discipline as major contributing factors.
 
-These findings highlight the importance of operational discipline. A significant number of accidents occur during personal and recreational flights, while structured commercial operations tend to demonstrate stronger safety performance. Accidents in clear weather further suggest that human error, rather than environmental conditions, is often the root cause. Therefore, for a company entering the aviation industry, focusing on certified, factory-built aircraft and prioritizing structured, commercial use cases is more sustainable and aligns better with safety and business objectives.
+For a company entering aviation, the safest strategy is to invest in certified, factory-built aircraft with strong safety records, supported by strict maintenance, comprehensive insurance, and robust pilot training programs. Emphasis should be placed on minimizing human error and strengthening operational protocols, especially during high-risk flight phases.where risk is greatest. Seasonal and weekend risk patterns also call for heightened operational vigilance during these periods. By adopting these measures, the company can minimize risks while establishing a safe and competitive presence in the aviation industry.
 
-Based on these insights, the company is recommended to invest in certified, factory-built aircraft with proven safety records, supported by comprehensive insurance and rigorous maintenance schedules to mitigate the financial impact of accidents. Strong pilot training and error-reduction programs should be emphasized, particularly targeting critical flight phases where risk is greatest. Seasonal and weekend risk patterns also call for heightened operational vigilance during these periods. By adopting these measures, the company can minimize risks while establishing a safe and competitive presence in the aviation industry.
+# Next Steps
+Collect more data on variables like Aircraft type. That way it will be easier to determine the type of aircrafts involved in most accidents and why.
+

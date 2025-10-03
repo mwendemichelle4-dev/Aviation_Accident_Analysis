@@ -1,37 +1,49 @@
 # Aviation_Accident_Analysis
 
 # Project Overview
+This project analyzes aviation accident data to identify the lowest-risk aircraft for a company expanding into the aviation industry. Using data cleaning, analysis, and visualization, the study highlights accident trends, aircraft risk profiles, and key contributing factors. The goal is to provide actionable insights that guide investment decisions on which aircraft models are safest and most cost-effective for commercial and private operations.
 
-This project seeks to analyze aviation accident and incident data to identify the potential risks associated with different aircraft types, with the goal of guiding the company in determining which aircraft are safest and most suitable for entry into the aviation industry. It is being carried out as part of the company’s strategy to diversify its portfolio into the purchase and operation of airplanes for both commercial and private enterprises, ensuring investments are made in low-risk options. The key stakeholders include the head of the aviation division, senior management responsible for diversification, and the data analytics team conducting the study. Set within the aviation industry, the project emphasizes safety, risk management, and evidence-based decision-making to support strategic aircraft acquisition.
 
 # Problem Statement
 The company is planning to expand into the aviation industry by purchasing and operating airplanes for both commercial and private use. However, management lacks adequate knowledge of the risks associated with different aircraft types, which poses a challenge in making safe and cost-effective investment decisions. Without a data-driven approach to understand accident patterns, damage severity, and injury outcomes, the company risks purchasing high-risk aircraft that could increase operational costs, insurance liabilities, and safety concerns.
 
 # Data
-For the analysis we will be using the Aviation-Accident csv dataset from (https://github.com/learn-co-curriculum/dsc-project-template.git).
+The analysis uses the Aviation Accident dataset from [GitHub](https://github.com/learn-co-curriculum/dsc-project-template.git)
+, containing over 90,000 records from 1948–2020. For this study, data from 1982 onwards was used, focusing on key variables such as injury severity, aircraft damage, make/model, and engine type to assess accident risks and support investment decisions
 
 # Methods
-This project uses descriptive analysis, including trend analysis over time and categorical comparisons. Grouping and aggregation were applied to identify accident patterns by aircraft type, injury severity, flight purpose, and weather conditions. Visualization techniques such as bar charts and line plots were used to highlight key insights, providing a clear overview of aviation accident risks and supporting data-driven recommendations for safer aircraft investment.
+This project uses descriptive analysis with grouping, aggregation, and visualization to identify accident patterns by aircraft type, injury severity, flight purpose, and weather. Bar charts and line plots highlight key insights, supporting data-driven recommendations for safer aircraft investment.
+
 
 # Results
+* **Aviation Safety Trends**
 
-The graph suggests significant progress in aviation safety over the past 40 years. The decrease in all injury types, especially fatalities, points toward better aircraft technology, stricter regulations, and improved emergency response.
+Over the past 40 years, aviation safety has improved significantly. All injury categories, especially fatalities, have declined—reflecting advances in aircraft technology, stricter regulations, and better emergency response systems.
 
 <img width="859" height="470" alt="image" src="https://github.com/user-attachments/assets/0bf0c093-6001-420c-b4a1-e5222261a347" />
 
-Most accidents happen in  Visual Meteorological Conditions (VMC) which is more favourable condition for pilots and flights. This could be due to a high number of flights when the weather is favourable. Also most accidents take place during take off and cruise.
+* **Weather Conditions**
+
+Most accidents occur under Visual Meteorological Conditions (VMC)—favorable weather for flying. This may be linked to the higher number of flights taking place in good weather rather than poor conditions.
 
 
 <img width="1389" height="790" alt="image" src="https://github.com/user-attachments/assets/f1f25af6-7cd2-4eee-a19e-a29d778bd533" />
 
-Cessna152, Cessna172, Cessna172N invoved in more accidents. This might be due to the populariy of these models but more investigation must be conducted.
-There also seems to be a strong connection between engine type and number of accidents. But again, this can be because of high number of them being in operation
+* **Aircraft Models & Engines**
+
+Cessna 152, Cessna 172, and Cessna 172N account for a high number of accidents—likely due to their widespread use.
 
 <img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/ff38f144-aea1-4bb6-b563-604e2500ef9b" />
 
+A strong link exists between engine type and accident frequency, though this may reflect how many are in active operation rather than higher risk.
+
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/942e488f-f147-468f-ab67-65441f3f596b" />
 
- A significant number of accidents occur during personal and recreational flights, while structured commercial operations tend to demonstrate stronger safety performance.
+* **Flight Purpose**
+
+Personal and recreational flights show higher accident rates.
+
+Commercial flights demonstrate stronger safety performance, likely due to structured operations, better-trained crews, and tighter regulations.
 
 <img width="639" height="562" alt="image" src="https://github.com/user-attachments/assets/5115d5e7-9316-4715-9bf7-6eeac11be975" />
 

@@ -29,15 +29,20 @@ Most accidents occur under Visual Meteorological Conditions (VMC)—favorable we
 
 <img width="1389" height="790" alt="image" src="https://github.com/user-attachments/assets/f1f25af6-7cd2-4eee-a19e-a29d778bd533" />
 
+
+
 * **Aircraft Models & Engines**
 
 Cessna 152, Cessna 172, and Cessna 172N account for a high number of accidents—likely due to their widespread use.
 
 <img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/ff38f144-aea1-4bb6-b563-604e2500ef9b" />
 
+
 A strong link exists between engine type and accident frequency, though this may reflect how many are in active operation rather than higher risk.
 
+
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/942e488f-f147-468f-ab67-65441f3f596b" />
+
 
 * **Flight Purpose**
 

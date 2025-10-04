@@ -64,3 +64,5 @@ For a company entering aviation, the safest strategy is to invest in certified, 
 # Next Steps
 Collect more data on variables like Aircraft type. That way it will be easier to determine the type of aircrafts involved in most accidents and why.
 
+# For More Information
+Email : mwendemichelle4@gmail.com

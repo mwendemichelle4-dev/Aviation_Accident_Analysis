@@ -16,6 +16,7 @@ This project uses descriptive analysis with grouping, aggregation, and visualiza
 
 
 # Results
+
 * **Aviation Safety Trends**
 
 Over the past 40 years, aviation safety has improved significantly. All injury categories, especially fatalities, have declined—reflecting advances in aircraft technology, stricter regulations, and better emergency response systems.
@@ -51,6 +52,12 @@ Personal and recreational flights show higher accident rates.
 Commercial flights demonstrate stronger safety performance, likely due to structured operations, better-trained crews, and tighter regulations.
 
 <img width="639" height="562" alt="image" src="https://github.com/user-attachments/assets/5115d5e7-9316-4715-9bf7-6eeac11be975" />
+
+# Dashboard  
+To complement the analysis, an interactive Tableau dashboard was created to visualize trends, accident patterns, and risk factors.  
+
+🔗 [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/michelle.mwende/viz/P1-M03-10-2025/Dashboard1?publish=yes)
+
 
 
 # Conclusions and Recommendations

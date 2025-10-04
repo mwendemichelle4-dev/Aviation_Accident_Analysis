@@ -1,0 +1,36 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore raw/intermediate data files
+*.csv
+*.xlsx
+*.xls
+*.ods
+
+# Ignore Tableau packaged files
+*.twb
+*.twbx
+
+# Ignore large binary outputs (optional, uncomment if needed)
+# *.pdf
+# *.pptx
+# *.ppt
+# *.docx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
